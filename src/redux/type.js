@@ -1,0 +1,2 @@
+export const USER_REGISTRATION = 'USER_REGISTRATION'
+export const POST_ADD = 'POST_ADD'

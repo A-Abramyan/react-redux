@@ -1,0 +1,79 @@
+.formReg{ 
+    box-sizing: border-box;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+    
+}
+.registrationLogo{ 
+    width: 50px;
+    
+    height: 40px;
+}
+.generalPage{ 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.sportito.in/inc/images/Allplayers.png);
+    background-size:cover;
+    justify-content: start;
+    align-items: start;
+   
+}
+.inputDiv{ 
+    margin:auto;
+    background-color: rgba(255, 255, 255, 0.91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+    width: 400px;
+    border-radius: 15px;
+   
+}
+.registrationForm{ 
+    width: 310px;
+
+}
+.inputDiv input{ 
+    height: 40px;
+    width: 300px;
+    font-family: cursive;
+    outline: none;
+    font-size: 17px;
+    margin-bottom:5px;
+}
+.addButton{ 
+    background-color: rgba(7, 62, 243, 0.404);
+    font-style: bold;
+    width: 95px;
+    height: 35px;
+    border: none;
+    margin-top: 15px;
+    margin-right: 5px;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 2px 6px 9px rgb(50, 62, 228);
+}
+.addButton:hover{ 
+    background-color: rgba(7, 37, 136, 0.877);;
+    transition-duration: 1s;
+}
+.addButton:active{ 
+    /* height: 33px; */
+    background-color: rgba(7, 62, 243, 0.404);
+    box-shadow: 2px 6px 9px rgb(50, 62, 228);
+    transition-duration: 0s;
+}
+.registrError{ 
+    /* background-color: rgba(255, 255, 255, 0.507); */
+    /* border: 1px solid; */
+    text-align: center;
+    color: red;
+    margin: 5px;
+    border-radius: 15px;
+    font-family: monospace;
+    font-size: 20px;
+    width: 300px;
+    height: 150px;
+}

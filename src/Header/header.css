@@ -1,0 +1,47 @@
+.menuItem{ 
+    outline: none;
+    font-size: 25px;
+    font-family:monospace;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(52, 96, 240, 0.623);
+    margin-left: 10px;
+  }
+  .logout{ 
+    outline: none;
+    font-size: 25px;
+    font-family:monospace;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(52, 96, 240, 0.623);
+    margin-left: 10px;
+    
+  }
+  .logout:hover{ 
+    background-color: rgba(224, 14, 32, 0.877);
+    font-size: 38px;
+    transition-duration: 0.5s;
+  }
+  .menuItem:hover{ 
+    background-color: rgba(109, 142, 252, 0.877);
+    font-size: 38px;
+    transition-duration: 0.5s;
+  }
+  .logout:active{ 
+    font-size: 20px;
+    height: 39px;
+    width: 247px;
+ 
+  }
+  .menuItem:active{ 
+    background-color: rgba(109, 142, 252, 0.877);
+    font-size: 20px;
+    height: 35px;
+    transition-duration: 0.5s;
+  }
